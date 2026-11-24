@@ -1,0 +1,186 @@
+[
+  {
+    "id": "hero_bingnv", "name": "冰女", "role": "MID", "faction": "元素",
+    "atk": 820, "hp": 4200, "def": 210, "spd": 118, "rarity": 3,
+    "counterTags": "anti_aoe,magic_burst",
+    "iconAsset": "heroes/hero_bingnv.webp", "dataVersion": 1,
+    "skills": [
+      {"name": "寒冰爆裂", "type": "AOE", "coef": 1.8, "cd": 3, "unlockStar": 3},
+      {"name": "极寒领域", "type": "CONTROL", "coef": 0.6, "cd": 4, "unlockStar": 4}
+    ]
+  },
+  {
+    "id": "hero_shidun", "name": "石盾", "role": "FRONT", "faction": "圣光",
+    "atk": 380, "hp": 9800, "def": 620, "spd": 86, "rarity": 3,
+    "counterTags": "front_tank,control_resist",
+    "iconAsset": "heroes/hero_shidun.webp", "dataVersion": 1,
+    "skills": [
+      {"name": "圣盾庇护", "type": "HEAL", "coef": 0.9, "cd": 3, "unlockStar": 3}
+    ]
+  },
+  {
+    "id": "hero_yanlong", "name": "炎龙", "role": "MID", "faction": "元素",
+    "atk": 940, "hp": 4600, "def": 190, "spd": 112, "rarity": 4,
+    "counterTags": "magic_burst,burst",
+    "iconAsset": "heroes/hero_yanlong.webp", "dataVersion": 1,
+    "skills": [
+      {"name": "烈焰吐息", "type": "AOE", "coef": 2.2, "cd": 3, "unlockStar": 4}
+    ]
+  },
+  {
+    "id": "hero_yingren", "name": "影刃", "role": "FRONT", "faction": "暗影",
+    "atk": 880, "hp": 6100, "def": 330, "spd": 131, "rarity": 4,
+    "counterTags": "anti_back,assassin",
+    "iconAsset": "heroes/hero_yingren.webp", "dataVersion": 1,
+    "skills": [
+      {"name": "影袭", "type": "SINGLE", "coef": 2.6, "cd": 2, "unlockStar": 4}
+    ]
+  },
+  {
+    "id": "hero_guangmushi", "name": "光牧师", "role": "BACK", "faction": "圣光",
+    "atk": 460, "hp": 5200, "def": 240, "spd": 98, "rarity": 3,
+    "counterTags": "sustain",
+    "iconAsset": "heroes/hero_guangmushi.webp", "dataVersion": 1,
+    "skills": [
+      {"name": "圣光治愈", "type": "HEAL", "coef": 1.6, "cd": 2, "unlockStar": 3},
+      {"name": "祝福光环", "type": "BUFF", "coef": 0.4, "cd": 4, "unlockStar": 5}
+    ]
+  },
+  {
+    "id": "hero_jixiejiang", "name": "机械匠", "role": "BACK", "faction": "机械",
+    "atk": 700, "hp": 5600, "def": 280, "spd": 105, "rarity": 3,
+    "counterTags": "anti_aoe,summon",
+    "iconAsset": "heroes/hero_jixiejiang.webp", "dataVersion": 1,
+    "skills": [
+      {"name": "炮台部署", "type": "SINGLE", "coef": 1.9, "cd": 3, "unlockStar": 3}
+    ]
+  },
+  {
+    "id": "hero_cixiong", "name": "磁凶", "role": "FRONT", "faction": "机械",
+    "atk": 520, "hp": 8800, "def": 560, "spd": 90, "rarity": 3,
+    "counterTags": "front_tank",
+    "iconAsset": "heroes/hero_cixiong.webp", "dataVersion": 1,
+    "skills": [
+      {"name": "磁力壁垒", "type": "CONTROL", "coef": 0.3, "cd": 4, "unlockStar": 3}
+    ]
+  },
+  {
+    "id": "hero_senlingnv", "name": "森林女", "role": "BACK", "faction": "自然",
+    "atk": 560, "hp": 6100, "def": 260, "spd": 102, "rarity": 3,
+    "counterTags": "sustain,anti_burst",
+    "iconAsset": "heroes/hero_senlingnv.webp", "dataVersion": 1,
+    "skills": [
+      {"name": "自然抚愈", "type": "HEAL", "coef": 1.4, "cd": 3, "unlockStar": 3}
+    ]
+  },
+  {
+    "id": "hero_heitunshou", "name": "黑吞兽", "role": "FRONT", "faction": "暗影",
+    "atk": 620, "hp": 9200, "def": 520, "spd": 84, "rarity": 4,
+    "counterTags": "front_tank,anti_magic",
+    "iconAsset": "heroes/hero_heitunshou.webp", "dataVersion": 1,
+    "skills": [
+      {"name": "暗影吞噬", "type": "SINGLE", "coef": 1.5, "cd": 2, "unlockStar": 4}
+    ]
+  },
+  {
+    "id": "hero_leidianfa", "name": "雷电法", "role": "MID", "faction": "元素",
+    "atk": 900, "hp": 4300, "def": 200, "spd": 120, "rarity": 3,
+    "counterTags": "magic_burst,anti_aoe",
+    "iconAsset": "heroes/hero_leidianfa.webp", "dataVersion": 1,
+    "skills": [
+      {"name": "连锁闪电", "type": "AOE", "coef": 1.7, "cd": 3, "unlockStar": 3}
+    ]
+  },
+  {
+    "id": "hero_shahu", "name": "沙狐", "role": "BACK", "faction": "自然",
+    "atk": 780, "hp": 4900, "def": 220, "spd": 126, "rarity": 4,
+    "counterTags": "burst,anti_back",
+    "iconAsset": "heroes/hero_shahu.webp", "dataVersion": 1,
+    "skills": [
+      {"name": "流沙陷阱", "type": "CONTROL", "coef": 0.5, "cd": 4, "unlockStar": 4},
+      {"name": "快速射击", "type": "SINGLE", "coef": 1.6, "cd": 2, "unlockStar": 3}
+    ]
+  },
+  {
+    "id": "hero_xueshuangqishi", "name": "雪霜骑士", "role": "FRONT", "faction": "元素",
+    "atk": 480, "hp": 9000, "def": 580, "spd": 88, "rarity": 4,
+    "counterTags": "front_tank,control_resist",
+    "iconAsset": "heroes/hero_xueshuangqishi.webp", "dataVersion": 1,
+    "skills": [
+      {"name": "冰甲反震", "type": "SINGLE", "coef": 1.1, "cd": 2, "unlockStar": 4}
+    ]
+  },
+  {
+    "id": "hero_wushisheng", "name": "武士胜", "role": "MID", "faction": "圣光",
+    "atk": 860, "hp": 6400, "def": 350, "spd": 108, "rarity": 4,
+    "counterTags": "burst,anti_front",
+    "iconAsset": "heroes/hero_wushisheng.webp", "dataVersion": 1,
+    "skills": [
+      {"name": "破军斩", "type": "SINGLE", "coef": 2.4, "cd": 2, "unlockStar": 4}
+    ]
+  },
+  {
+    "id": "hero_duying", "name": "毒鹰", "role": "BACK", "faction": "暗影",
+    "atk": 740, "hp": 4700, "def": 230, "spd": 129, "rarity": 3,
+    "counterTags": "anti_heal,burst",
+    "iconAsset": "heroes/hero_duying.webp", "dataVersion": 1,
+    "skills": [
+      {"name": "淬毒飞刃", "type": "SINGLE", "coef": 1.8, "cd": 2, "unlockStar": 3}
+    ]
+  },
+  {
+    "id": "hero_tiebiwu", "name": "铁壁龟", "role": "FRONT", "faction": "自然",
+    "atk": 360, "hp": 10600, "def": 700, "spd": 76, "rarity": 3,
+    "counterTags": "front_tank,anti_aoe",
+    "iconAsset": "heroes/hero_tiebiwu.webp", "dataVersion": 1,
+    "skills": [
+      {"name": "大地守护", "type": "HEAL", "coef": 0.8, "cd": 4, "unlockStar": 3}
+    ]
+  },
+  {
+    "id": "hero_paohuishou", "name": "炮灰兽", "role": "MID", "faction": "机械",
+    "atk": 820, "hp": 5400, "def": 270, "spd": 110, "rarity": 3,
+    "counterTags": "anti_front,explode",
+    "iconAsset": "heroes/hero_paohuishou.webp", "dataVersion": 1,
+    "skills": [
+      {"name": "自爆冲锋", "type": "AOE", "coef": 1.9, "cd": 4, "unlockStar": 3}
+    ]
+  },
+  {
+    "id": "hero_yuegong", "name": "月弓", "role": "BACK", "faction": "元素",
+    "atk": 890, "hp": 4500, "def": 205, "spd": 122, "rarity": 4,
+    "counterTags": "burst,anti_back",
+    "iconAsset": "heroes/hero_yuegong.webp", "dataVersion": 1,
+    "skills": [
+      {"name": "穿月箭", "type": "SINGLE", "coef": 2.5, "cd": 3, "unlockStar": 4}
+    ]
+  },
+  {
+    "id": "hero_shengguangqishi", "name": "圣光骑士", "role": "FRONT", "faction": "圣光",
+    "atk": 440, "hp": 9400, "def": 600, "spd": 82, "rarity": 4,
+    "counterTags": "front_tank,anti_shadow",
+    "iconAsset": "heroes/hero_shengguangqishi.webp", "dataVersion": 1,
+    "skills": [
+      {"name": "正义壁垒", "type": "CONTROL", "coef": 0.4, "cd": 4, "unlockStar": 4}
+    ]
+  },
+  {
+    "id": "hero_anzhoushi", "name": "暗咒师", "role": "MID", "faction": "暗影",
+    "atk": 830, "hp": 4800, "def": 215, "spd": 115, "rarity": 3,
+    "counterTags": "anti_heal,magic_burst",
+    "iconAsset": "heroes/hero_anzhoushi.webp", "dataVersion": 1,
+    "skills": [
+      {"name": "腐蚀之咒", "type": "AOE", "coef": 1.5, "cd": 3, "unlockStar": 3},
+      {"name": "沉默低语", "type": "CONTROL", "coef": 0.3, "cd": 4, "unlockStar": 5}
+    ]
+  },
+  {
+    "id": "hero_fengxingzhe", "name": "风行者", "role": "BACK", "faction": "自然",
+    "atk": 760, "hp": 5100, "def": 235, "spd": 134, "rarity": 3,
+    "counterTags": "anti_control",
+    "iconAsset": "heroes/hero_fengxingzhe.webp", "dataVersion": 1,
+    "skills": [
+      {"name": "疾风连射", "type": "SINGLE", "coef": 1.7, "cd": 2, "unlockStar": 3}
+    ]
+  }
+]

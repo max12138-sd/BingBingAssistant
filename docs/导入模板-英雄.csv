@@ -1,0 +1,3 @@
+id,name,role,faction,atk,hp,def,spd,rarity,counterTags,iconAsset,dataVersion
+hero_bingnv,冰女,MID,元素,820,4200,210,118,3,anti_aoe,magic_burst,heroes/hero_bingnv.webp,1
+hero_shidun,石盾,FRONT,圣光,380,9800,620,86,3,front_tank,heroes/hero_shidun.webp,1

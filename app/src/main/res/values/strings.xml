@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">冰冰助手</string>
+
+    <!-- 主页 -->
+    <string name="main_title">冰冰助手</string>
+    <string name="main_subtitle">常驻悬浮球 · 离线 · 不联网</string>
+    <string name="btn_start_overlay">启动悬浮球</string>
+    <string name="btn_stop_overlay">停止悬浮球</string>
+    <string name="btn_arena">竞技场阵容</string>
+    <string name="btn_peak">巅峰方案</string>
+    <string name="btn_activity">7日活动</string>
+    <string name="btn_pool">我的英雄库</string>
+    <string name="btn_settings">设置</string>
+    <string name="btn_permission_guide">权限引导</string>
+    <string name="status_overlay_on">悬浮球运行中</string>
+    <string name="status_overlay_off">悬浮球未启动</string>
+    <string name="status_pool_fmt">英雄库：%1$d 名英雄，已勾选 %2$d 名</string>
+
+    <!-- 权限引导 -->
+    <string name="perm_title">权限引导（三步）</string>
+    <string name="perm_step1">① 悬浮窗权限（在其他应用上层显示）</string>
+    <string name="perm_step2">② 屏幕截图授权（识别阵容用，仅本地处理）</string>
+    <string name="perm_step3">③ 通知权限（临期活动提醒）</string>
+    <string name="perm_granted">已授权</string>
+    <string name="perm_not_granted">未授权</string>
+    <string name="perm_btn_overlay">去开启悬浮窗</string>
+    <string name="perm_btn_capture">授权屏幕截图</string>
+    <string name="perm_btn_notification">去开启通知</string>
+    <string name="perm_btn_autostart">华为：应用启动管理（三项全开）</string>
+    <string name="perm_btn_battery">电池优化白名单</string>
+
+    <!-- 英雄库 -->
+    <string name="pool_title">我的英雄库</string>
+    <string name="pool_select_all_5star">一键全选 5 星</string>
+    <string name="pool_star_fmt">★%1$d</string>
+    <string name="pool_hint">点击勾选拥有；长按调整星级</string>
+
+    <!-- 设置 -->
+    <string name="settings_title">设置</string>
+    <string name="settings_data_version_fmt">英雄库数据版本：%1$d</string>
+    <string name="settings_calibration_fmt">模型校准度：已学习 %1$d 场</string>
+    <string name="settings_btn_import_csv">导入英雄 CSV</string>
+    <string name="settings_btn_import_json">导入活动 JSON</string>
+    <string name="settings_btn_selftest">巅峰算法自测（构造数据）</string>
+    <string name="settings_btn_dump_log">导出日志</string>
+    <string name="settings_btn_pool_doctor">英雄库体检</string>
+
+    <!-- 服务通知 -->
+    <string name="capture_channel_name">屏幕采集</string>
+    <string name="capture_notification_title">冰冰助手采集服务</string>
+    <string name="capture_notification_text">正在提供本地阵容识别，不联网</string>
+    <string name="overlay_channel_name">悬浮球</string>
+    <string name="overlay_notification_title">冰冰助手运行中</string>
+    <string name="overlay_notification_text">点悬浮球查看阵容推荐与活动</string>
+    <string name="reminder_channel_name">活动提醒</string>
+</resources>

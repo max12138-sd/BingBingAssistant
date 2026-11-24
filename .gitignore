@@ -1,0 +1,15 @@
+# Gradle
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+
+# IDE
+.idea/
+*.iml
+local.properties
+.DS_Store
+captures/
+
+# 本地调试产物（截图样本、临时日志）
+app/debug-capture/
+*.log

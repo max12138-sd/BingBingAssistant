@@ -1,0 +1,30 @@
+[
+  {
+    "id": "cr_anti_front_vs_tank",
+    "attackerTag": "anti_front",
+    "targetTag": "front_tank",
+    "modifier": 0.05,
+    "note": "我方带破前排词条，对重坦克阵容有优势"
+  },
+  {
+    "id": "cr_anti_heal_vs_sustain",
+    "attackerTag": "anti_heal",
+    "targetTag": "sustain",
+    "modifier": 0.06,
+    "note": "禁疗克制治疗体系，拖后期不吃亏"
+  },
+  {
+    "id": "cr_anti_back_vs_assassin",
+    "attackerTag": "anti_back",
+    "targetTag": "assassin",
+    "modifier": -0.04,
+    "note": "对方有切后刺客时，我方后排生存压力大"
+  },
+  {
+    "id": "cr_anti_aoe_vs_magic",
+    "attackerTag": "anti_aoe",
+    "targetTag": "magic_burst",
+    "modifier": 0.04,
+    "note": "抗AOE词条可减免法系爆发伤害"
+  }
+]

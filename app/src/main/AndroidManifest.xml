@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <!--
+      权限铁律（规格书 §2.2 / §14）：只有浮窗、前台服务、通知三类基础能力。
+      1) 不申请 INTERNET（L1）
+      2) 不申请无障碍（L2）
+      3) FOREGROUND_SERVICE_MEDIA_PROJECTION / FOREGROUND_SERVICE_SPECIAL_USE 是
+         targetSdk 34 起系统强制的 FGS 类型声明权限，属平台规则而非新增能力，
+         已在 README「与规格书的偏差说明」登记。
+    -->
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_MEDIA_PROJECTION" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_SPECIAL_USE" />
+
+    <application
+        android:name=".App"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.BingBing">
+
+        <activity
+            android:name=".ui.MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".ui.PermissionGuideActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".ui.MyPoolActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".ui.SettingsActivity"
+            android:exported="false" />
+
+        <!-- 截图采集前台服务（M2 启用）。Android 14 要求显式 foregroundServiceType。 -->
+        <service
+            android:name=".capture.ScreenCaptureService"
+            android:exported="false"
+            android:foregroundServiceType="mediaProjection" />
+
+        <!-- 悬浮球宿主服务（M2 启用）。specialUse 附带用途说明。 -->
+        <service
+            android:name=".overlay.OverlayService"
+            android:exported="false"
+            android:foregroundServiceType="specialUse">
+            <property
+                android:name="android.app.PROPERTY_SPECIAL_USE_FGS_SUBTYPE"
+                android:value="悬浮球宿主：游戏画面上提供阵容推荐入口，不做任何点击代操作" />
+        </service>
+
+        <!-- WorkManager 默认初始化即可（§7.5 每日活动提醒）。关闭后台网络类初始化器不存在。 -->
+        <provider
+            android:name="androidx.startup.InitializationProvider"
+            android:authorities="${applicationId}.androidx-startup"
+            android:exported="false"
+            tools:node="merge" />
+    </application>
+
+</manifest>

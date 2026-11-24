@@ -1,0 +1,26 @@
+[
+  {
+    "id": "tpl_burst",
+    "name": "速攻爆发",
+    "roles": ["FRONT", "MID", "MID", "BACK", "BACK"],
+    "coreHeroIds": ["hero_yanlong", "hero_yuegong"],
+    "tags": ["burst", "anti_back"],
+    "dataVersion": 1
+  },
+  {
+    "id": "tpl_control",
+    "name": "控制消耗",
+    "roles": ["FRONT", "MID", "BACK", "BACK", "BACK"],
+    "coreHeroIds": ["hero_anzhoushi", "hero_senlingnv"],
+    "tags": ["control", "sustain"],
+    "dataVersion": 1
+  },
+  {
+    "id": "tpl_stall",
+    "name": "铁壁拖平",
+    "roles": ["FRONT", "FRONT", "MID", "BACK", "BACK"],
+    "coreHeroIds": ["hero_tiebiwu", "hero_guangmushi"],
+    "tags": ["sustain", "anti_aoe"],
+    "dataVersion": 1
+  }
+]

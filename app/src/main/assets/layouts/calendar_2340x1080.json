@@ -1,0 +1,9 @@
+{
+  "screenAspect": 2.1667,
+  "_comment": "活动日历页（月视图）。ROI 为占位值，TODO(M5) 真机校准。",
+  "calendar": {
+    "monthHeaderRoi": [0.20, 0.06, 0.60, 0.06],
+    "gridRoi": [0.02, 0.14, 0.96, 0.62],
+    "legendRoi": [0.02, 0.78, 0.96, 0.16]
+  }
+}

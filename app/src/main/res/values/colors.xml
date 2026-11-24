@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- §8.2 视觉基调：深色 + 强调/风险/成功三色 -->
+<resources>
+    <color name="bg_dark">#12141A</color>
+    <color name="text_primary">#E8EAF0</color>
+    <color name="text_secondary">#7C8598</color>
+    <color name="accent">#4C8DFF</color>
+    <color name="risk">#FF6B6B</color>
+    <color name="success">#3DD68C</color>
+    <color name="card_bg">#1A1D26</color>
+    <color name="warn_bg">#3A3420</color>
+</resources>

@@ -1,0 +1,26 @@
+[
+  {
+    "name": "限时召唤·冰女",
+    "brief": "抽卡得英雄碎片，限时概率UP",
+    "start": "2026-11-22",
+    "end": "2026-11-28",
+    "priority": "HIGH",
+    "source": "MANUAL"
+  },
+  {
+    "name": "竞技场双倍周",
+    "brief": "竞技场胜利奖励翻倍，冲分好时机",
+    "start": "2026-11-24",
+    "end": "2026-11-30",
+    "priority": "HIGH",
+    "source": "MANUAL"
+  },
+  {
+    "name": "装备锻造折扣",
+    "brief": "锻造消耗降低 30%，补装备等级",
+    "start": "2026-11-20",
+    "end": "2026-11-26",
+    "priority": "MID",
+    "source": "MANUAL"
+  }
+]
